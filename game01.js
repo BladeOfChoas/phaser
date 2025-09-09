@@ -26,8 +26,8 @@ let cursors;
 new Phaser.Game(config);
 
 function preload() {
-    this.load.image("player1", "asset/players.jpeg");
-    this.load.image("gem", "asset/food.jpg");
+    this.load.image("player1", "assets/players.jpeg");
+    this.load.image("gem", "assets/food.jpg");
 }
 
 function createPlayer(scene,x, y, imageKey, width, height) {
@@ -84,3 +84,4 @@ function update() {
         player.setVelocityY(160);
     }
 }
+
